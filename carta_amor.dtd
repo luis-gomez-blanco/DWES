@@ -1,0 +1,5 @@
+<!ELEMENT note (para,de,titulo,mensaje)>
+<!ELEMENT para (#PCDATA)>
+<!ELEMENT de (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)> 
