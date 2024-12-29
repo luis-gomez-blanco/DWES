@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE programa_tv [
 <!ELEMENT programa_tv (canal+)>
 <!ELEMENT canal (banner,dia+)>
 <!ELEMENT banner (#PCDATA)>
@@ -16,4 +14,3 @@
 <!ATTLIST horario vtr CDATA #IMPLIED>
 <!ATTLIST titulo calificacion CDATA #IMPLIED>
 <!ATTLIST titulo idioma CDATA #IMPLIED>
-]>
