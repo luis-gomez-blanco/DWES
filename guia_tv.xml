@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE programa_tv [
+<!ELEMENT programa_tv (canal+)>
+<!ELEMENT canal (banner,dia+)>
+<!ELEMENT banner (#PCDATA)>
+<!ELEMENT dia (fecha,(festivo|guia+)+)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT festivo (#PCDATA)>
+<!ELEMENT guia (horario,titulo,descripcion?)>
+<!ELEMENT horario (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)> 
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ATTLIST programa_tv nombre CDATA #REQUIRED>
+<!ATTLIST canal numero CDATA #REQUIRED>
+<!ATTLIST horario vtr CDATA #IMPLIED>
+<!ATTLIST titulo calificacion CDATA #IMPLIED>
+<!ATTLIST titulo idioma CDATA #IMPLIED>
+]>
